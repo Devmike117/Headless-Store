@@ -56,7 +56,7 @@ export default function Login() {
           <div className="flex justify-center mb-8">
             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-gray-300 rounded-full flex items-center justify-center overflow-hidden">
               <img 
-                src="public/logo.png"
+                src="/logo.png"
                 alt="Logo" 
                 className="w-10 h-10 sm:w-14 sm:h-14 object-contain" 
                 draggable="false"
