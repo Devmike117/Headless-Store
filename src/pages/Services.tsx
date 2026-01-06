@@ -67,7 +67,7 @@ export const Services = () => {
       id: 8,
       title: 'Actualización macOS',
       description: 'Actualiza tu Mac sin soporte oficial a versiones más recientes',
-      price: 'Desde $999 MXN',
+      price: 'Desde $599 MXN',
       Icon: FaApple,
       link: '/servicios/actualizacion-macos',
     },
