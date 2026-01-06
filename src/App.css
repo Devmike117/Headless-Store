@@ -1,0 +1,32 @@
+/* Responsive adjustments for Checkout page */
+@media (max-width: 1024px) {
+	.checkout-grid {
+		grid-template-columns: 1fr !important;
+		gap: 2rem !important;
+	}
+	.checkout-summary {
+		position: static !important;
+		top: unset !important;
+		margin-top: 2rem !important;
+	}
+}
+
+@media (max-width: 640px) {
+	.checkout-container {
+		padding-left: 0.5rem !important;
+		padding-right: 0.5rem !important;
+	}
+	.checkout-title {
+		font-size: 2rem !important;
+	}
+	.checkout-card {
+		padding: 1rem !important;
+	}
+	.checkout-summary {
+		margin-top: 1.5rem !important;
+	}
+	.checkout-form {
+		gap: 1rem !important;
+	}
+}
+/* App styles */
