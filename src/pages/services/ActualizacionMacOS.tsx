@@ -23,7 +23,7 @@ export const ActualizacionMacOS = () => {
           </div>
           <div className="text-center sm:text-left">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-semibold text-black mb-2">Actualización macOS</h1>
-            <p className="text-xl sm:text-2xl text-blue-600 font-semibold">Desde $999 MXN</p>
+            <p className="text-xl sm:text-2xl text-blue-600 font-semibold">Desde $599 MXN</p>
           </div>
         </div>
         <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
@@ -94,9 +94,9 @@ export const ActualizacionMacOS = () => {
                 Generalmente compatibles
               </h3>
               <ul className="space-y-2 text-gray-700">
-                <li>• MacBook Pro (2012 - 2017)</li>
-                <li>• MacBook Air (2012 - 2017)</li>
-                <li>• iMac (2012 - 2017)</li>
+                <li>• MacBook Pro (2012 - 2018)</li>
+                <li>• MacBook Air (2012 - 2018)</li>
+                <li>• iMac (2012 - 2018)</li>
                 <li>• Mac Mini (2012 - 2014)</li>
                 <li>• Mac Pro (2013)</li>
               </ul>

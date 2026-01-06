@@ -75,7 +75,7 @@ export const FAQ = () => {
       questions: [
         {
           q: "¿Qué métodos de pago aceptan?",
-          a: "Aceptamos tarjetas de crédito/débito, PayPal, transferencias bancarias y pagos en OXXO. Los pagos son procesados de forma segura."
+          a: "Aceptamos tarjetas de crédito/débito, Apple Pay, Google Pay y transferencias bancarias. Los pagos son procesados de forma segura."
         },
         {
           q: "¿Los precios incluyen IVA?",
@@ -92,7 +92,11 @@ export const FAQ = () => {
       questions: [
         {
           q: "¿Cómo me comunico con soporte?",
-          a: "Puedes contactarme a través del formulario de contacto, Telegram (@1628393), o por email. Respondo en menos de 24 horas."
+          a: (
+            <>
+              Puedes contactarme a través del formulario de contacto, Telegram (@devmike117), o por email: <a href="mailto:devmike117@icloud.com" className="text-blue-600 hover:underline">devmike117@icloud.com</a>. Respondo en menos de 24 horas.
+            </>
+          )
         },
         {
           q: "¿Dan capacitación o asesoría?",
@@ -152,7 +156,7 @@ export const FAQ = () => {
                       </button>
                       {isOpen && (
                         <div className="px-6 pb-4">
-                          <p className="text-gray-600 leading-relaxed">{faq.a}</p>
+                          <div className="text-gray-600 leading-relaxed">{faq.a}</div>
                         </div>
                       )}
                     </div>
